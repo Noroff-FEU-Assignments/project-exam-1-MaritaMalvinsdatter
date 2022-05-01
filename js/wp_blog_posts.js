@@ -10,6 +10,7 @@ async function blogList(url) {
     posts.forEach((post) => {
         blogContainer.innerHTML += `<div class="post">
         <h3>${post.title.rendered}</h3>
+        <img src="${post.x_featured_media_medium}">
         </div>`
         
     });

@@ -2,9 +2,13 @@ h1 {
     text-align: center;
 }
 
-.product-list {
+.blog-post-list {
     margin: 0px auto;
     display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .post {
