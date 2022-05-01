@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+}
+
+.product-list {
+    margin: 0px auto;
+    display: flex;
+}
+
+.post {
+    border: 1px solid #0b3b59;
+}
