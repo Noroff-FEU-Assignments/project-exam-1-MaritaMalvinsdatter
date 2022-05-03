@@ -3,18 +3,23 @@ const blogContainer = document.querySelector(".blog-post-list");
 const morePosts = document.querySelector(".more-posts")
 
 async function blogList(url) {
-    const response = await fetch(url)
-    const posts = await response.json()
-    console.log(posts);
 
-    posts.forEach((post) => {
-        blogContainer.innerHTML += `<div class="post">
-        <h3>${post.title.rendered}</h3>
-        <a href="blog_posts.html?id=${post.id}"><img src="${post.x_featured_media_medium}"></a>
-        </div>`
+    try {
+        const response = await fetch(url)
+        const posts = await response.json()
+        console.log(posts);
+    
+        posts.forEach((post) => {
+            blogContainer.innerHTML += `<div class="post">
+            <h3>${post.title.rendered}</h3>
+            <a href="blog_posts.html?id=${post.id}"><img src="${post.x_featured_media_medium}"></a>
+            </div>`
+            
+        });
         
-    });
-
+    } catch (error) {
+        blogContainer.innerHTML += `An error has occured, please return to main page or contact us`;
+    }
 
 }
 
