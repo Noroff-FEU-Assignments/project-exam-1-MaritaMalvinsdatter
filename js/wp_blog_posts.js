@@ -19,9 +19,7 @@ async function getBlogPost() {
 
         blogInfo.innerHTML += `<div class="post"
         <h1>${post.title.rendered}</h1>
-            <div>
-            ${post.content.rendered}
-            </div>
+        <div>${post.content.rendered}</div>
         </div>`
 
         newTitle.innerHTML += `${post.title.rendered}`;

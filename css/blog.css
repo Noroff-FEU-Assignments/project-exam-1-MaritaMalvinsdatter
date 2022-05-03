@@ -1,3 +1,5 @@
+/* Blog Page */
+
 h1 {
     text-align: center;
 }
@@ -13,6 +15,16 @@ h1 {
 
 .post {
     border: 1px solid #0b3b59;
+}
+
+.button {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.more-posts {
+    padding: 10px;
+    font-size: 18px;
 }
 
 /* Blog Posts Specifics*/
