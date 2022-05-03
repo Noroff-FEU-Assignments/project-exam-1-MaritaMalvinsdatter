@@ -14,3 +14,14 @@ h1 {
 .post {
     border: 1px solid #0b3b59;
 }
+
+/* Blog Posts Specifics*/
+
+.blog-posts-specifics {
+    max-width: 500px;
+}
+
+.wp-block-image img {
+    max-width: 100px;
+    height: auto;
+}
