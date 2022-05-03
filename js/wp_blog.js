@@ -1,6 +1,6 @@
-const baseUrl = "https://www.malvinsdatter.no/wp-json/wp/v2/posts/";
-
-const blogContainer = document.querySelector(".blog-post-list")
+const baseUrl = "https://www.malvinsdatter.no/wp-json/wp/v2/posts";
+const blogContainer = document.querySelector(".blog-post-list");
+const morePosts = document.querySelector(".more-posts")
 
 async function blogList(url) {
     const response = await fetch(url)
@@ -19,3 +19,9 @@ async function blogList(url) {
 }
 
 blogList(baseUrl)
+
+morePosts.onclick = function() {
+    const newUrl = baseUrl + "?per_page=20";
+    blogContainer.innerHTML = "";
+    blogList(newUrl);
+}
