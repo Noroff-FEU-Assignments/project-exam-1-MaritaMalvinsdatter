@@ -1,0 +1,33 @@
+input,
+select,
+textarea {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px 10px 10px 0px;
+  padding: 10px;
+}
+
+label {
+  margin: 15px 0px 0px 0px;
+}
+
+.error {
+  margin: 0px 0px 30px 0px;
+  color: red;
+  display: none;
+}
+
+.contact-form {
+  text-align: left;
+  margin: 35px 0px;
+  max-width: 500px;
+}
+
+.contact-form > * {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  margin-bottom: 35px;
+}
