@@ -19,6 +19,7 @@ async function getBlogPost() {
 
         blogInfo.innerHTML += `<div class="post">
         <h1>${post.title.rendered}</h1>
+        <img src="${post.x_featured_media_large}">
         <div class="post-content">${post.content.rendered}</div>
         </div>`
 
