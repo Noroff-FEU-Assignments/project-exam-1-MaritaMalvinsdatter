@@ -1,7 +1,12 @@
+h1 {
+  text-align: center;
+  margin: 50px 0px;
+}
+
 input,
 select,
 textarea {
-  border: 1px solid black;
+  border: 1px solid #0b3b59;
   border-radius: 5px;
   margin: 10px 10px 10px 0px;
   padding: 10px;
@@ -19,7 +24,7 @@ label {
 
 .contact-form {
   text-align: left;
-  margin: 35px 0px;
+  margin: auto;
   max-width: 500px;
 }
 
@@ -28,6 +33,13 @@ label {
   flex-direction: column;
 }
 
-button {
-  margin-bottom: 35px;
+.button {
+  text-align: center;
+  margin: 50px;
+}
+
+.validation-message {
+  text-decoration: underline;
+  margin: 30px;
+  text-align: center;
 }
