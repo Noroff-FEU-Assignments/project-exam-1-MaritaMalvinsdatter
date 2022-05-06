@@ -21,14 +21,19 @@ h1 {
 .post-cards {
   max-width: 450px;
   margin: 25px;
-  border: 1px solid #0b3b59;
+  border-color:#0b3b59;
+  border-style: double;
 }
 
-.post-cards img {
+h3 {
+    text-align: center;
+}
+
+/* .post-cards img {
   width: 100%;
   object-fit: cover;
   max-height: 200px;
-}
+} */
 
 .button {
     text-align: center;
