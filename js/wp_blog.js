@@ -10,7 +10,7 @@ async function blogList(url) {
         console.log(posts);
     
         posts.forEach((post) => {
-            blogContainer.innerHTML += `<div class="post">
+            blogContainer.innerHTML += `<div class="post-cards">
             <h3>${post.title.rendered}</h3>
             <a href="blog_posts.html?id=${post.id}"><img src="${post.x_featured_media_medium}"></a>
             </div>`

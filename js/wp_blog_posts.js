@@ -1,5 +1,5 @@
 const newTitle = document.querySelector("title")
-const blogInfo = document.querySelector(".blog-posts-specifics")
+const blogInfo = document.querySelector(".blog-posts")
 
 const queryString = document.location.search;
 const params = new URLSearchParams(queryString);
@@ -17,9 +17,9 @@ async function getBlogPost() {
         const response = await fetch(baseUrl);
         const post = await response.json();
 
-        blogInfo.innerHTML += `<div class="post"
+        blogInfo.innerHTML += `<div class="post">
         <h1>${post.title.rendered}</h1>
-        <div>${post.content.rendered}</div>
+        <div class="post-content">${post.content.rendered}</div>
         </div>`
 
         newTitle.innerHTML += `${post.title.rendered}`;
