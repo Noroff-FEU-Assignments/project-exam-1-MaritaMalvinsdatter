@@ -1,6 +1,6 @@
 const baseUrl = "https://www.malvinsdatter.no/wp-json/wp/v2/posts";
 const sliderCount = 5;
-const slider = document.querySelector(".slider");
+const slider = document.querySelector(".slider-container");
 var currentSlide = 0;
 
 async function sliderList(url) {

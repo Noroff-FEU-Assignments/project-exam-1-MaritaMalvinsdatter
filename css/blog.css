@@ -59,14 +59,14 @@ h3 {
 }
 
 .post-content {
-    width: 100%;
+    width: 700px;
+    margin: auto;
 }
 
 p,
 h4,
 ul,
 .wp-block-quote {
-    margin: 0 100px;
     margin-top: 30px;
 }
 
@@ -101,8 +101,8 @@ ul {
 .wp-block-columns {
     display: flex;
     justify-content: space-between;
-    width: 1000px;
-    margin-top: 50px;
+    /* width: 1000px; */
+    margin-top: 30px;
 }
 
 figure {
@@ -110,7 +110,7 @@ figure {
 }
 
 .wp-block-image img {
-    max-width: 320px;
+    max-width: 230px;
     height: auto;
 }
 
