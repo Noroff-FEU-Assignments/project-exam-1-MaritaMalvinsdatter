@@ -12,8 +12,9 @@ async function sliderList(url) {
 
       for (let i = 0; i < sliderCount; i++) {
         let title = posts[i].title.rendered;
-        slider.innerHTML += `<div class="slider`+i+` slide-card">${title}
-        <a href="blog_posts.html?id=${posts[i].id}"><img src="${posts[i].x_featured_media_medium}"></a>
+        slider.innerHTML += `<div class="slider`+i+` slide-card">
+        <h2 class="title">${title}</h2>
+        <a href="blog_posts.html?id=${posts[i].id}"><img src="${posts[i].x_featured_media_large}"></a>
         </div>`
 
         if (i > 0) {

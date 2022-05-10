@@ -1,5 +1,5 @@
-.prev {
-    display: none;
+main {
+    text-align: center;
 }
 
 /* SLIDER */
@@ -10,3 +10,21 @@
     text-align: center;
 }
 
+.slide-card img {
+    max-height: 500px;
+}
+
+.slider-buttons {
+    text-align: center;
+}
+
+.title {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.prev {
+    display: none;
+}
