@@ -27,7 +27,7 @@ main {
     position: absolute;
     transform: translate(-50%, -50%);
     width: 710px;
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
 }
 
@@ -38,6 +38,6 @@ main {
     color: blue;
 }
 
-.prev {
+/* .prev {
     display: none;
-}
+} */

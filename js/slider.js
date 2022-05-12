@@ -29,18 +29,19 @@ async function sliderList(url) {
 
 sliderList(baseUrl)
 
-const buttonNext = document.querySelector(".next")
-const buttonPrev = document.querySelector(".prev")
+const buttonNext = document.querySelector(".next");
+const buttonPrev = document.querySelector(".prev");
+buttonPrev.disabled = true;
 
 buttonNext.onclick = function() {
     document.querySelector(".slider" + currentSlide).setAttribute("style", "display: none");
     currentSlide++
     document.querySelector(".slider" + currentSlide).setAttribute("style", "display: block");
     if (currentSlide == sliderCount-1) {
-        buttonNext.setAttribute("style", "display: none");
+        buttonNext.disabled = true;
     } 
     if (currentSlide > 0) {
-        buttonPrev.setAttribute("style", "display: inline")
+        buttonPrev.disabled = false;
     }
 }
 
@@ -49,9 +50,9 @@ buttonPrev.onclick = function() {
     currentSlide--
     document.querySelector(".slider" + currentSlide).setAttribute("style", "display: block");
     if (currentSlide == 0) {
-        buttonPrev.setAttribute("style", "display: none");
+        buttonPrev.disabled = true;
     } 
     if (currentSlide < sliderCount) {
-        buttonNext.setAttribute("style", "display: inline")
+        buttonNext.disabled = false;
     }
 }

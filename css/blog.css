@@ -110,10 +110,15 @@ figure {
 }
 
 .wp-block-image img {
-    max-width: 230px;
-    height: auto;
+    width: 230px;
+    height: 275px;
 }
 
+figcaption {
+    text-align: center;
+}
+
+/* Modal */
 
 
 
