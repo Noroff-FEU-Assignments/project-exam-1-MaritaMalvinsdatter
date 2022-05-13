@@ -1,4 +1,4 @@
-const baseUrl = "https://www.malvinsdatter.no/wp-json/wp/v2/posts";
+const baseUrl = "https://www.malvinsdatter.no/wp-json/wp/v2/blog?acf_format=standard";
 const sliderCount = 5;
 const slider = document.querySelector(".slider-container");
 var currentSlide = 0;
@@ -11,10 +11,10 @@ async function sliderList(url) {
         console.log(posts);
 
       for (let i = 0; i < sliderCount; i++) {
-        let title = posts[i].title.rendered;
+        let title = posts[i].acf.title;
         slider.innerHTML += `<div class="slider`+i+` slide-card">
         <h2 class="title">${title}</h2>
-        <a href="blog_posts.html?id=${posts[i].id}"><img src="${posts[i].x_featured_media_large}"></a>
+        <a href="blog_posts.html?id=${posts[i].id}"><img src="${posts[i].acf.featured_img}"></a>
         </div>`
 
         if (i > 0) {

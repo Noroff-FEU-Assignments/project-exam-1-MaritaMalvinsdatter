@@ -29,11 +29,11 @@ h3 {
     text-align: center;
 }
 
-/* .post-cards img {
+.post-cards img {
   width: 100%;
   object-fit: cover;
   max-height: 200px;
-} */
+}
 
 .button {
     text-align: center;

@@ -1,4 +1,4 @@
-const baseUrl = "https://www.malvinsdatter.no/wp-json/wp/v2/posts";
+const baseUrl = "https://www.malvinsdatter.no/wp-json/wp/v2/blog?acf_format=standard";
 const blogContainer = document.querySelector(".blog-post-list");
 const morePosts = document.querySelector(".more-posts")
 
@@ -11,8 +11,8 @@ async function blogList(url) {
     
         posts.forEach((post) => {
             blogContainer.innerHTML += `<div class="post-cards">
-            <a href="blog_posts.html?id=${post.id}"><img src="${post.x_featured_media_medium}"></a>
-            <h3>${post.title.rendered}</h3>
+            <a href="blog_posts.html?id=${post.id}"><img src="${post.acf.featured_img}"></a>
+            <h3>${post.acf.title}</h3>
             </div>`
             
         });
@@ -26,7 +26,7 @@ async function blogList(url) {
 blogList(baseUrl)
 
 morePosts.onclick = function() {
-    const newUrl = baseUrl + "?per_page=20";
+    const newUrl = baseUrl + "&per_page=20";
     blogContainer.innerHTML = "";
     blogList(newUrl);
 }
