@@ -65,8 +65,7 @@ h3 {
 
 p,
 h4,
-ul,
-.wp-block-quote {
+ul {
     margin-top: 30px;
 }
 
@@ -87,38 +86,37 @@ ul {
     padding-inline-start: 18px;
 }
 
-.wp-block-quote {
+.img-column {
+    display: flex;
+    justify-content: space-between;
+    /* width: 1000px; */
+    margin-top: 30px;
+    text-align: center;
+}
+
+.img-box p {
+    margin-top: 10px;
+}
+
+.img-column img {
+    width: 230px;
+    height: 275px;
+}
+
+.quote-container {
     border-style: double;
     border-color: #0b3b59;
     padding: 20px 0px;
     text-align: center;
 }
 
-.wp-block-quote p {
-    margin-top: 0px;
+.quote {
+    font-size: bold;
 }
 
-.wp-block-columns {
-    display: flex;
-    justify-content: space-between;
-    /* width: 1000px; */
-    margin-top: 30px;
+.author {
+    font-style: italic;
 }
-
-figure {
-    margin: 0px;
-}
-
-.wp-block-image img {
-    width: 230px;
-    height: 275px;
-}
-
-figcaption {
-    text-align: center;
-}
-
-/* Modal */
 
 
 

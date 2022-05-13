@@ -22,6 +22,7 @@ async function getBlogPost() {
         blogInfo.innerHTML += `<div class="post">
         <h1>${post.acf.title}</h1>
         <img src="${post.acf.featured_img}">
+        <h2>${post.acf.h2}</h2>
         <div class="post-content">
         <p>${post.acf.p1}</p>
         <p>${post.acf.p2}</p>
@@ -37,15 +38,26 @@ async function getBlogPost() {
             <li>${post.acf.li7}</li>
             <li>${post.acf.li8}</li>
         </ul>
-        <div>
-            <img src="${post.acf.img1}">
-            <img src="${post.acf.img2}">
-            <img src="${post.acf.img3}">
+        <div class="img-column">
+            <div class"img-box">
+                <img src="${post.acf.img1.url}" alt="${post.acf.img1.alt}">
+                <p>${post.acf.img1.caption}</p>
+            </div>
+            <div class"img-box">
+                <img src="${post.acf.img2.url}" alt="${post.acf.img2.alt}">
+                <p>${post.acf.img2.caption}</p>
+            </div>
+            <div class"img-box">
+                <img src="${post.acf.img3.url}" alt="${post.acf.img3.alt}">
+                <p>${post.acf.img3.caption}</p>
+            </div>
         </div>
         <p>${post.acf.p4}</p>
         <p>${post.acf.p5}</p>
-        <p>${post.acf.quote}</p>
-        <p>${post.acf.quote_author}</p>
+        <div class="quote-container">
+            <p class="quote">${post.acf.quote}</p>
+            <p clas="author">${post.acf.quote_author}</p>
+        </div>
         </div>`
 
         newTitle.innerHTML += `${post.acf.title}`;
