@@ -89,13 +89,12 @@ ul {
 .img-column {
     display: flex;
     justify-content: space-between;
-    /* width: 1000px; */
     margin-top: 30px;
     text-align: center;
 }
 
-.img-box p {
-    margin-top: 10px;
+.caption {
+    margin: 0;
 }
 
 .img-column img {
@@ -111,7 +110,7 @@ ul {
 }
 
 .quote {
-    font-size: bold;
+    font-weight: bold;
 }
 
 .author {

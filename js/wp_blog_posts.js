@@ -39,24 +39,24 @@ async function getBlogPost() {
             <li>${post.acf.li8}</li>
         </ul>
         <div class="img-column">
-            <div class"img-box">
+            <div class="img-box">
                 <img src="${post.acf.img1.url}" alt="${post.acf.img1.alt}">
-                <p>${post.acf.img1.caption}</p>
+                <p class="caption">${post.acf.img1.caption}</p>
             </div>
-            <div class"img-box">
+            <div class="img-box">
                 <img src="${post.acf.img2.url}" alt="${post.acf.img2.alt}">
-                <p>${post.acf.img2.caption}</p>
+                <p class="caption">${post.acf.img2.caption}</p>
             </div>
-            <div class"img-box">
+            <div class="img-box">
                 <img src="${post.acf.img3.url}" alt="${post.acf.img3.alt}">
-                <p>${post.acf.img3.caption}</p>
+                <p class="caption">${post.acf.img3.caption}</p>
             </div>
         </div>
         <p>${post.acf.p4}</p>
         <p>${post.acf.p5}</p>
         <div class="quote-container">
             <p class="quote">${post.acf.quote}</p>
-            <p clas="author">${post.acf.quote_author}</p>
+            <p class="author">${post.acf.quote_author}</p>
         </div>
         </div>`
 
