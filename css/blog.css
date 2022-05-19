@@ -122,6 +122,7 @@ ul {
 
 .modal {
     position: fixed;
+    /* overflow: hidden; */
     left: 0;
     right: 0s;
     top: 50%;
