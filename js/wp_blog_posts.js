@@ -11,6 +11,8 @@ const baseUrl = `https://www.malvinsdatter.no/wp-json/wp/v2/blog/${id}?acf_forma
 
 console.log(baseUrl)
 
+// Fetching the post specifics
+
 async function getBlogPost() {
 
     try {
@@ -59,6 +61,38 @@ async function getBlogPost() {
             <p class="author">${post.acf.quote_author}</p>
         </div>
         </div>`
+
+
+        // Creating the modal for making the post images bigger
+
+        const images = document.querySelectorAll(".image");
+        let imgSrc;
+      
+        images.forEach((img) => {
+          img.addEventListener("click", (e) => {
+            imgSrc = e.target.src;
+            popUpModal(imgSrc);
+            // console.log(imgSrc)
+          });
+        });
+
+        let popUpModal = (src) => {
+            const modal = document.createElement("div");
+            modal.setAttribute("class", "modal");
+            document.querySelector(".img-box").append(modal);
+            const newImage = document.createElement("img");
+            newImage.setAttribute("src", src);
+
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                  modal.style.display = "none";
+                }
+              };
+
+            modal.append(newImage);
+        };
+
+        // Adding post title in the browser tab
 
         newTitle.innerHTML += `${post.acf.title}`;
 

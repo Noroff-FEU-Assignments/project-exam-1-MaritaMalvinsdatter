@@ -117,6 +117,25 @@ ul {
     font-style: italic;
 }
 
+/* MODAL */
+
+.modal {
+    width: 50%;
+    height: 50%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.733);
+    margin-top: 50px;
+    animation: zoom 0.3s ease-in-out;
+}
+
+.modal img {
+    width: 50%;
+    object-fit: cover;
+}
 
 
 
