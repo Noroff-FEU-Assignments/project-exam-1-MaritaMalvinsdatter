@@ -5,7 +5,7 @@ main {
 /* SLIDER */
 
 .slider-container {
-    min-height: 350px;
+    height: 500px;
     position: relative;
     text-align: center;
 }
@@ -18,24 +18,15 @@ main {
 }
 
 .slide-card img {
-    max-height: 500px;
+    min-height: 500px;
 }
 
 .slider-buttons {
-    top: 42%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    width: 710px;
-    /* display: flex; */
-    justify-content: space-between;
+    margin: 0 auto;
 }
-
-
 
 .fa-solid {
     font-size: 40px;
-    color: blue;
 }
 
 /* .prev {

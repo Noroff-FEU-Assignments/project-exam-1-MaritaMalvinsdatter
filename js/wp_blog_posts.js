@@ -40,15 +40,15 @@ async function getBlogPost() {
         </ul>
         <div class="img-column">
             <div class="img-box">
-                <img src="${post.acf.img1.url}" alt="${post.acf.img1.alt}">
+                <img src="${post.acf.img1.url}" class="image" alt="${post.acf.img1.alt}">
                 <p class="caption">${post.acf.img1.caption}</p>
             </div>
             <div class="img-box">
-                <img src="${post.acf.img2.url}" alt="${post.acf.img2.alt}">
+                <img src="${post.acf.img2.url}" class="image" alt="${post.acf.img2.alt}">
                 <p class="caption">${post.acf.img2.caption}</p>
             </div>
             <div class="img-box">
-                <img src="${post.acf.img3.url}" alt="${post.acf.img3.alt}">
+                <img src="${post.acf.img3.url}" class="image" alt="${post.acf.img3.alt}">
                 <p class="caption">${post.acf.img3.caption}</p>
             </div>
         </div>
@@ -69,3 +69,5 @@ async function getBlogPost() {
 }
 
 getBlogPost();
+
+
