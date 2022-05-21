@@ -56,6 +56,8 @@ h3 {
 .post img {
     width: 100%;
     object-fit: cover;
+    border-color:#0b3b59;
+    border-style: double;
 }
 
 .post-content {

@@ -13,31 +13,38 @@
 </head>
 <body>
     <header>
-        <div>
-            <a href="index.html"><img src="img/logo.png" alt="logo" class="logo"></a>
-        </div>
         <div class="nav-container">
             <nav>
-                <ul>
-                  <!-- <li><a href="/travel.html">TRAVEL</a></li> -->
-                  <li><a href="/blog.html">BLOG</a></li>
-                  <li><a href="/about.html">ABOUT</a></li>
-                  <li><a href="/contact.html">CONTACT</a></li>
+                <div>
+                    <a href="index.html"><img src="img/logo.png" alt="logo" class="logo"></a>
+                </div>
+                <ul  class="nav-menu">
+                  <li><a class="nav-item" href="#">HOME</a></li>
+                  <li><a class="nav-item" href="/blog.html">BLOG</a></li>
+                  <li><a class="nav-item" href="/about.html">ABOUT</a></li>
+                  <li><a class="nav-item" href="/contact.html">CONTACT</a></li>
                 </ul>
+                <button class="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
               </nav>
         </div>
     </header>
     <main>
-        <h1>Latest Posts:</h1>
+        <!-- <h1>Latest Posts:</h1> -->
         <div class="slider-container">
         </div>
         <div class="slider-buttons">
             <button class="prev"><i class="fa-solid fa-angle-left"></i><i class="fa-solid fa-angle-left"></i></button>
             <button class="next"><i class="fa-solid fa-angle-right"></i><i class="fa-solid fa-angle-right"></i></button>
         </div>
+        <!-- <div class="map">
+            <iframe src="https://www.pictramap.com/app/view?p=ad5e53&paused=1"></iframe>
+        </div> -->
     </main>
     <footer>
     </footer>
     <script src="js/slider.js"></script>
+    <script src="js/nav.js"></script>
 </body>
 </html>
