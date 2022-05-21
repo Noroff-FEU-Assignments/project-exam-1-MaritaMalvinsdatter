@@ -1,14 +1,18 @@
 body {
     height: 100%;
-    margin: 0;
     background-image: url("/img/background_copy.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 0px 15px;
 }
 
 header {
     background-image: none;
+}
+
+.nav-menu.active {
+    margin-right: 5px;
 }
 
 main {
@@ -18,9 +22,7 @@ main {
 /* SLIDER */
 
 .slider-container {
-    /* height: 500px; */
     position: relative;
-    text-align: center;
 }
 
 .title {
@@ -40,10 +42,6 @@ main {
 
 .slider-buttons {
     margin: 0 auto;
-}
-
-.fa-solid {
-    font-size: 40px;
 }
 
 /* .prev {
