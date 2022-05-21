@@ -50,4 +50,22 @@
         max-width: 70%;
     }
 
+    .img-column {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .img-column img {
+        width: 230px;
+    }
+
+    .post-content {
+        width: 715px;
+        margin: auto;
+    }
+
+    .quote-container {
+        padding: 10px;
+    }
+
 }    

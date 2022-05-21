@@ -23,11 +23,10 @@ async function getBlogPost() {
 
         blogInfo.innerHTML += `<div class="post">
         <h1>${post.acf.title}</h1>
-        <img src="${post.acf.featured_img.url}" alt="${post.acf.featured_img.alt}">
+        <img src="${post.acf.featured_img.url}" class="featured-img" alt="${post.acf.featured_img.alt}">
         <h2>${post.acf.h2}</h2>
         <div class="post-content">
         <p>${post.acf.p1}</p>
-        <p>${post.acf.p2}</p>
         <p>${post.acf.p3}</p>
         <h3>${post.acf.ul_title}</h3>
         <ul>
