@@ -17,11 +17,10 @@ body {
     background-repeat: no-repeat;
     position: relative;
     background-position-y: 45%;
-    padding: 5px 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 15px;
+    padding: 25px 15px;
   }
 
   .logo {
@@ -75,13 +74,11 @@ body {
   
   nav li {
     padding: 5px 10px;
-    font-size: 1.3em;
   }
 
   nav a {
     text-decoration: none;
     color: black;
-    font-weight: bold;
     transition: 0.7s ease;
   }
 
