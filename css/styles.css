@@ -20,7 +20,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 25px 15px;
+    padding: 15px;
+    border-bottom: 1px solid black;
   }
 
   .logo {
@@ -55,7 +56,7 @@ body {
     opacity: 0.9;
     /* width: 100%; */
     text-align: center;
-    transition: 0.3s;
+    /* transition: 0.3s; */
 }
 
 .nav-menu.active {

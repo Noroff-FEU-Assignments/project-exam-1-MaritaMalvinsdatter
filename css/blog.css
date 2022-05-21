@@ -11,11 +11,7 @@ h1 {
 }
 
 .blog-post-list {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0px 20px;
-  margin: 45px 300px;
-  justify-content: space-evenly;
+    padding: 0px 20px;
 }
 
 .post-cards {

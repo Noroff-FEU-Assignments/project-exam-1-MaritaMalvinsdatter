@@ -23,6 +23,7 @@ main {
 
 .slider-container {
     position: relative;
+    margin-top: 30px;
 }
 
 .title {
@@ -37,7 +38,6 @@ main {
     height: auto;
     border-color:#0b3b59;
     border-style: double;
-    background-color: white;
 }
 
 .slider-buttons {
