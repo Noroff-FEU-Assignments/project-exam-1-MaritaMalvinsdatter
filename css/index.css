@@ -1,23 +1,62 @@
 body {
     height: 100%;
-    background-image: url("/img/background_copy.jpg");
+    /* background-image: url("/img/background_copy.jpg"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-header {
+/* header {
     background-image: none;
-}
+} */
 
 .nav-menu.active {
     margin-right: 5px;
 }
 
-main {
+main, 
+.main-content {
     text-align: center;
+}
+
+.main-content {
     padding: 0px 15px;
 }
+
+
+/* QUOTE*/
+
+.img-quote-container {
+    background-image: url(/img/quote_photo.jpg);
+    background-size: cover;
+    min-height: 200px;
+    position: relative;
+    background-position-x: 35%;
+  }
+
+  .img-quote-containe .overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .overlay {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(46, 71, 94, 0.5);
+  }
+  
+  .img-quote {
+    color: #fff;
+    margin: 25px;
+  }
+
+  .quote-author {
+      font-size: 0.7em;
+  }
 
 /* SLIDER */
 
