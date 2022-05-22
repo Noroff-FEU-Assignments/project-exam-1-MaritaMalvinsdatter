@@ -34,6 +34,7 @@ body {
     text-decoration: none;
     font-family: 'Amatic SC';
     font-weight: bolder;
+    color: #00008b;;
   }
 
   .nav-container {
@@ -91,7 +92,7 @@ body {
   }
 
   nav a:hover {
-    color: #0551A8;
+    color: #00008b;
   }
 
   .fa-bars {
