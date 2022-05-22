@@ -69,11 +69,11 @@
         align-items: center;
     }
 
-    .slider-img {
+    .slide-card .slider-img {
         flex: 60%;
     }
 
-    .slider-text {
+    .slide-card .slider-text {
         flex: 40%;
         margin: 0px 30px;
     }

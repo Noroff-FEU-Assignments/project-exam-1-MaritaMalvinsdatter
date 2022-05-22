@@ -42,7 +42,7 @@ buttonPrev.disabled = true;
 buttonNext.onclick = function() {
     document.querySelector(".slider" + currentSlide).setAttribute("style", "display: none");
     currentSlide++
-    document.querySelector(".slider" + currentSlide).setAttribute("style", "display: block");
+    document.querySelector(".slider" + currentSlide).setAttribute("style", "display: flex");
     if (currentSlide == sliderCount-1) {
         buttonNext.disabled = true;
     } 
@@ -54,7 +54,7 @@ buttonNext.onclick = function() {
 buttonPrev.onclick = function() {
     document.querySelector(".slider" + currentSlide).setAttribute("style", "display: none");
     currentSlide--
-    document.querySelector(".slider" + currentSlide).setAttribute("style", "display: block");
+    document.querySelector(".slider" + currentSlide).setAttribute("style", "display: flex");
     if (currentSlide == 0) {
         buttonPrev.disabled = true;
     } 
