@@ -48,6 +48,10 @@ body {
     font-size: 1em;
   }
 
+  .fa-solid:hover {
+    color: #228B22;
+  }
+
   /* .hamburger {
     display: block;
 } */
