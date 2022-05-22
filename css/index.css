@@ -14,17 +14,17 @@ body {
     margin-right: 5px;
 }
 
-main, 
-.main-content {
+/* main {
     text-align: center;
-}
+} */
 
 .main-content {
     padding: 0px 15px;
+    /* text-align: end; */
 }
 
 
-/* QUOTE*/
+/* IMG & QUOTE */
 
 .img-quote-container {
     background-image: url(/img/quote_photo.jpg);
@@ -52,6 +52,8 @@ main,
   .img-quote {
     color: #fff;
     margin: 25px;
+    font-family: 'Kalam';
+    text-align: center;
   }
 
   .quote-author {
@@ -60,27 +62,52 @@ main,
 
 /* SLIDER */
 
+.text {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 1.3em;
+    margin: 20px 0px 0px;
+}
+
+.main-content a {
+    color: black;
+    font-size: 0.8em;
+}
+
 .slider-container {
     position: relative;
-    margin-top: 30px;
+    border-color:#0b3b59;
+    border-style: double;
+    background-color: white;
 }
 
 .title {
     position: absolute;
-    top: 10%;
+    top: 3%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-family: 'Kalam';
+    font-size: 1.5em;
+    color: white;
+    text-decoration: underline;
+}
+
+.slider-text p {
+    margin: 10px 5px;
 }
 
 .slide-card img {
     max-width: 100%;
     height: auto;
-    border-color:#0b3b59;
-    border-style: double;
 }
 
 .slider-buttons {
     margin: 0 auto;
+    text-align: center;
 }
 
 /* .prev {

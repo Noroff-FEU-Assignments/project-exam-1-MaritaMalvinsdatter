@@ -19,10 +19,16 @@ h1 {
   margin: 25px;
   border-color:#0b3b59;
   border-style: double;
+  background-color: white;
 }
 
 h3 {
     text-align: center;
+}
+
+.post-cards h3,
+.caption {
+    font-family: 'Kalam';
 }
 
 .post-cards img {
@@ -101,13 +107,14 @@ li {
 }
 
 .caption {
-    margin: 0;
+    margin: 5px;
 }
 
 .img-box {
     border-color:#0b3b59;
     border-style: double;
     margin: 10px 0px;
+    background-color: white;
 }
 
 .img-column img {
