@@ -36,6 +36,11 @@
     nav li {
         font-size: 2.5em;
     }
+    
+    h1 {
+        margin: 40px;
+        font-size: 2.5em;
+      }
 
     /* INDEX */
 
@@ -62,23 +67,25 @@
     }
 
     .slider-img {
-        flex: 50%;
+        flex: 60%;
     }
 
     .slider-text {
-        flex: 50%;
+        flex: 40%;
+        margin: 0px 30px;
     }
 
-
-    .slide-card img {
-        /* max-width: 70%; */
-        border: none;
+    .slider-text p {
+        margin-bottom: 30px;
+        font-size: 1.2em;
     }
 
     .title {
         position: unset;
         transform: none;
         color: black;
+        margin-bottom: 30px;
+        font-size: 2em;
     }
 
     /* BLOG LIST & POSTS*/

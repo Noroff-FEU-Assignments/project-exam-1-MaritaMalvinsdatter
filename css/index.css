@@ -68,10 +68,10 @@ body {
     justify-content: space-between;
 }
 
-h1 {
+/* h1 {
     font-size: 1.3em;
     margin: 20px 0px 0px;
-}
+} */
 
 .main-content a {
     color: black;
@@ -83,6 +83,7 @@ h1 {
     border-color:#0b3b59;
     border-style: double;
     background-color: white;
+    margin: 0 10px;
 }
 
 .title {
@@ -98,6 +99,11 @@ h1 {
 
 .slider-text p {
     margin: 10px 5px;
+}
+
+.slider-text a {
+    color: black;
+    font-style: italic;
 }
 
 .slide-card img {

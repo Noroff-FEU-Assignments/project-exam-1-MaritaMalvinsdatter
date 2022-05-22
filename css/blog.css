@@ -1,13 +1,8 @@
 /* Blog Page */
 
-h1 {
-    text-align: center;
-    margin: 50px;
-}
-
 .all-blog-posts,
 .blog-posts {
-    margin: 40px auto;
+    margin: 20px auto;
 }
 
 .blog-post-list {
