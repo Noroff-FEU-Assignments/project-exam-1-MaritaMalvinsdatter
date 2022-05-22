@@ -18,6 +18,7 @@
         flex-direction: row;
         position: unset;
         background-color: rgba(0,0,0,0);
+        padding: 0;
     }
 
     .on-page {
@@ -29,12 +30,12 @@
         margin-top: 20px;
     }
 
-    nav a {
-        font-weight: bold;
-    }
+    /* nav a {
+    } */
 
     nav li {
-        font-size: 2.5em;
+        font-size: 1.5em;
+        font-weight: bold;
     }
     
     h1 {
