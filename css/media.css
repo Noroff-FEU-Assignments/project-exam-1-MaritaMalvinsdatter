@@ -26,12 +26,14 @@
       }
 
     .logo {
+        font-size: 5em;
         max-width: 200px;
         margin-top: 20px;
     }
 
-    /* nav a {
-    } */
+    h1 {
+        font-size: 2em;
+    }
 
     nav li {
         font-size: 1.5em;

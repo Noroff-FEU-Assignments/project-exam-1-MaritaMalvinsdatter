@@ -24,6 +24,8 @@ h3 {
 .post-cards h3,
 .caption {
     font-family: 'Grape Nuts';
+    font-size: 1.2em;
+    margin: 0 0 5px;
 }
 
 .post-cards img {
@@ -64,11 +66,6 @@ main {
     margin: auto;
 }
 
-/* p,
-h4 {
-    margin-top: 30px;
-} */
-
 h2 {
     text-align: center;
     margin: 50px 0px;
@@ -99,10 +96,6 @@ li {
 .img-column {
     margin: 30px 0px;
     text-align: center;
-}
-
-.caption {
-    margin: 5px;
 }
 
 .img-box {

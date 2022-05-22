@@ -6,17 +6,6 @@ body {
     background-size: cover;
 }
 
-.logo {
-    font-size: 5em;
-    text-decoration: none;
-    font-family: 'Amatic SC';
-    font-weight: bolder;
-}
-
-.fa-solid {
-    font-size: 1em;
-}
-
 .nav-menu.active {
     margin-right: 5px;
 }
