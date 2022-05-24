@@ -133,9 +133,7 @@ li {
 
 .modal {
     position: fixed;
-    /* overflow: hidden; */
-    left: 0;
-    right: 0s;
+    right: 0;
     top: 50%;
     transform: translateY(-50%);
     width: 100%;
@@ -144,7 +142,7 @@ li {
 }
 
 .modal img {
-    width: 30%;
+    width: 80%;
     height: auto;
     margin: 20px;
     border-style: double;

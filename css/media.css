@@ -116,6 +116,10 @@
         width: 230px;
     }
 
+    .modal img {
+        width: 50%;
+    }
+
     .post-content {
         width: 715px;
         margin: auto;
@@ -164,6 +168,10 @@
 
     .about-me img {
         width: 40%;
+    }
+
+    .modal img {
+        width: 30%;
     }
 }
 

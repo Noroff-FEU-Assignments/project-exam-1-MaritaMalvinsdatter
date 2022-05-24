@@ -34,7 +34,7 @@ body {
     text-decoration: none;
     font-family: 'Amatic SC';
     font-weight: bolder;
-    color: #00008b;;
+    color: #00008b;
   }
 
   .nav-container {
@@ -44,8 +44,14 @@ body {
     align-items: center;
   }
 
+  .hamburger {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #00008b;
+  }
+
   .fa-solid {
     font-size: 1em;
+    color: #00008b
   }
 
   .fa-solid:hover {
