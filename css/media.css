@@ -94,8 +94,17 @@
     }
 
     .about-me {
-        margin: 0 220px;
+        margin: 0 120px;
     }
+
+    /* .about-me img {
+        width: 50%;
+    } */
+
+    .about-me a {
+        margin: 25px 0;
+    }
+
 
     /* BLOG LIST & POSTS*/
 
@@ -138,6 +147,14 @@
 
     .slider-container {
         margin: 0px 50px;
+    }
+
+    .about-me {
+        margin: 0 220px;
+    }
+
+    .about-me img {
+        width: 40%;
     }
 }
 

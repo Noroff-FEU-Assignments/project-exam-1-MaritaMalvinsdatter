@@ -112,9 +112,6 @@ body {
     text-align: center;
 }
 
-/* .prev {
-    display: none;
-} */
 
 /* ABOUT ME*/
 
@@ -127,16 +124,23 @@ body {
 .about-me p {
     flex: 40%;
     text-align: center;
-    margin-bottom: 25px;
+    margin: 0px 30px;
 }
 
 .about-me img {
     border-radius: 50%;
-    width: 30%;
+    width: 60%;
 }
 
 h3 {
     font-family: "Kalam";
     font-size: 1.5em;
     margin-bottom: 0;
+}
+
+.about-me a {
+    color: black;
+    font-style: italic;
+    margin-bottom: 25px;
+    font-size: 00.8em;
 }
