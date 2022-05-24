@@ -137,6 +137,15 @@
         margin: 0 auto;
     }
 
+    .map h2,
+    .next h2 {
+        margin-top: 50px;
+    }
+
+    iframe {
+        height: 400px;
+    }
+
 }    
 
 
