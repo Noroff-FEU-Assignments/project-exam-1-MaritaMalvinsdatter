@@ -1,4 +1,8 @@
 
+main {
+  margin: 0px 30px;
+}
+
 .contact p {
   text-align: center;
 }
@@ -38,13 +42,13 @@ label {
 
 .button {
   text-align: center;
-  margin: 50px;
+  margin: 20px;
 }
 
 .validation-message {
-  text-decoration: underline;
   margin: 30px;
   text-align: center;
+  color: black;
 }
 
 /* Q&A*/
