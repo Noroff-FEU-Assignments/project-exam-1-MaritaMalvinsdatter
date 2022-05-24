@@ -1,4 +1,10 @@
 
+.contact p {
+  text-align: center;
+}
+
+/* FORM */
+
 input,
 select,
 textarea {
@@ -18,7 +24,8 @@ label {
   display: none;
 }
 
-.contact-form {
+.contact-form,
+.qa {
   text-align: left;
   margin: auto;
   max-width: 500px;
@@ -38,4 +45,16 @@ label {
   text-decoration: underline;
   margin: 30px;
   text-align: center;
+}
+
+/* Q&A*/
+
+.qa h2 {
+  text-align: center;
+}
+
+.questions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
