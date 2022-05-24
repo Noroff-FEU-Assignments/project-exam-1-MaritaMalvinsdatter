@@ -97,10 +97,6 @@
         margin: 0 120px;
     }
 
-    /* .about-me img {
-        width: 50%;
-    } */
-
     .about-me a {
         margin: 25px 0;
     }
@@ -131,6 +127,14 @@
 
     .quote-container {
         padding: 10px;
+    }
+
+    /* ABOUT ME */
+
+    .about-me-main,
+    .map {
+        max-width: 50%;
+        margin: 0 auto;
     }
 
 }    
@@ -173,5 +177,10 @@
 
     .post-cards img {
         max-height: none;
+    }
+
+    .img-me {
+        max-width: 40%;
+        margin: 20px auto;
     }
 }
