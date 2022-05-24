@@ -62,7 +62,6 @@
     .slider-container {
         border-color:#0b3b59;
         border-style: double;
-        text-align: left;
     }
 
     .slide-card {
@@ -72,6 +71,7 @@
 
     .slide-card .slider-img {
         flex: 60%;
+        margin: 0;
     }
 
     .slide-card .slider-text {
@@ -91,6 +91,10 @@
         color: black;
         margin-bottom: 30px;
         font-size: 2em;
+    }
+
+    .about-me {
+        margin: 0 220px;
     }
 
     /* BLOG LIST & POSTS*/
