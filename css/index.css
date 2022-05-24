@@ -84,7 +84,7 @@ body {
 
 .slider-text p {
     margin: 10px 5px;
-    display: none;
+    /* display: none; */
 }
 
 .slider-text a {
@@ -106,6 +106,7 @@ body {
     /* text-decoration: underline; */
     font-style: normal;
     /* background-color: rgba(46, 71, 94, 0.5); */
+    margin-top: 0;
 }
 
 .slide-card img {
