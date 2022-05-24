@@ -116,5 +116,39 @@ body {
     font-family: 'Kalam';
   }
 
+  /* FOOTER */
+
+footer {
+  background-color: #008C8B;
+  padding: 15px;
+  margin-top: 50px;
+}
+
+.footer-info {
+  text-align: center;
+}
+
+.content-list a {
+  color: black;
+  font-size: 1.5em;
+  text-decoration: none;
+  font-family: "Kalam";
+  font-weight: bold;
+  margin: 0px 10px;
+}
+
+.social-media {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.social-media > * {
+  margin-right: 10px;
+}
+
+.copyright {
+  text-align: center;
+}
+
   
   

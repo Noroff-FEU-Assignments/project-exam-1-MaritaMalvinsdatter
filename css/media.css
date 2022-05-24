@@ -144,16 +144,31 @@
         height: 400px;
     }
 
+    /* FOOTER */
+
+    .footer-info {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .content-list a {
+        margin-left: 15px;
+    }
+
+    .social-media {
+        margin-top: 0px;
+    }
+
+    .copyright p {
+        margin: 25px 0px 0px;
+    }
+
 }    
 
 
 @media only screen and (min-width: 900px) {
     .img-quote-container {
         min-height: 550px;
-    }
-
-    .img-quote p {
-        font-size: 2em;
     }
 
     .slider-container {
@@ -169,7 +184,7 @@
     }
 
     .modal img {
-        width: 30%;
+        width: 40%;
     }
 }
 
