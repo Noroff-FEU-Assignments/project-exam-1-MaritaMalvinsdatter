@@ -62,6 +62,7 @@
     .slider-container {
         border-color:#0b3b59;
         border-style: double;
+        text-align: left;
     }
 
     .slide-card {
@@ -81,6 +82,7 @@
     .slider-text p {
         margin-bottom: 30px;
         font-size: 1.2em;
+        display: block;
     }
 
     .title {

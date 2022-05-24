@@ -17,9 +17,9 @@ async function sliderList(url) {
         <a href="blog_posts.html?id=${posts[i].id}"><img src="${posts[i].acf.featured_img.url}"></a>
         </div>
         <div class="slider-text">
-         <h2 class="title">${title}</h2>
+        <a href="blog_posts.html?id=${posts[i].id}"><h2 class="title">${title}</h2></a>
          <p>${posts[i].acf.p1}</p>
-         <p><a href="blog_posts.html?id=${posts[i].id}">Read More</a></p>
+         <a href="blog_posts.html?id=${posts[i].id}">Read More</a>
         </div>
         </div>`
 
