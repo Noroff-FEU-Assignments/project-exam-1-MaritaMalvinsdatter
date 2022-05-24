@@ -1,6 +1,5 @@
 body {
     height: 100%;
-    /* background-image: url("/img/background_copy.jpg"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,13 +9,8 @@ body {
     margin-right: 5px;
 }
 
-/* main {
-    text-align: center;
-} */
-
 .main-content {
     padding: 0px 15px;
-    /* text-align: end; */
 }
 
 
@@ -97,15 +91,8 @@ body {
 }
 
 .title {
-    /* position: absolute;
-    top: 3%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
     font-size: 1.5em;
-    /* color: white; */
-    /* text-decoration: underline; */
     font-style: normal;
-    /* background-color: rgba(46, 71, 94, 0.5); */
     margin-top: 0;
 }
 

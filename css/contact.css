@@ -14,12 +14,11 @@ select,
 textarea {
   border: 1px solid #0b3b59;
   border-radius: 5px;
-  margin: 10px 10px 10px 0px;
   padding: 10px;
 }
 
 label {
-  margin: 15px 0px 0px 0px;
+  margin: 25px 0px 0px 0px;
 }
 
 .error {

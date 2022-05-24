@@ -4,7 +4,6 @@
 
     header {
         flex-direction: column;
-        /* margin-bottom: 10px; */
         padding: 25px 15px 0px 15px; 
         border-bottom: 2px solid #0b3b59;;
     }
@@ -103,7 +102,6 @@
     .blog-post-list {
         display: flex;
         flex-wrap: wrap;
-        /* margin: 45px 300px; */
         justify-content: space-evenly;
     }
 
