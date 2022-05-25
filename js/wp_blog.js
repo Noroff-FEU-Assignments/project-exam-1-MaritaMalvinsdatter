@@ -4,10 +4,18 @@ const morePosts = document.querySelector(".more-posts")
 
 async function blogList(url) {
 
+    // Getting the list of 10 first posts
+
     try {
         const response = await fetch(url)
         const posts = await response.json()
         console.log(posts);
+
+        // Making the loader work
+
+        blogContainer.innerHTML = "";
+
+        // Displaying post details
     
         posts.forEach((post) => {
             blogContainer.innerHTML += `<div class="post-cards">
@@ -24,6 +32,8 @@ async function blogList(url) {
 }
 
 blogList(baseUrl)
+
+// Fetching the rest of the posts when clicking button
 
 morePosts.onclick = function() {
     const newUrl = baseUrl + "&per_page=20";

@@ -5,10 +5,18 @@ var currentSlide = 0;
 
 async function sliderList(url) {
 
+    // Get the 5 latest post for slider
+
     try {
         const response = await fetch(url)
         const posts = await response.json()
         console.log(posts);
+
+        // Making the loader work
+
+        slider.innerHTML = " ";
+
+        // Displaying post details
 
       for (let i = 0; i < sliderCount; i++) {
         let title = posts[i].acf.title;
@@ -34,6 +42,8 @@ async function sliderList(url) {
 }
 
 sliderList(baseUrl)
+
+// Buttons for going back and forth in the slider
 
 const buttonNext = document.querySelector(".next");
 const buttonPrev = document.querySelector(".prev");

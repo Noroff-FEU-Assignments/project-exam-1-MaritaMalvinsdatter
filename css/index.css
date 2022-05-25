@@ -75,7 +75,6 @@ body {
     text-align: center;
 }
 
-
 .slider-text p {
     margin: 10px 5px;
 }
@@ -98,6 +97,7 @@ body {
 .slide-card img {
     max-width: 100%;
     height: auto;
+    display: block;
 }
 
 .slider-buttons {
