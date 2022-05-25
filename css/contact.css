@@ -44,6 +44,12 @@ label {
   margin-top: 25px;
 }
 
+.submit-button {
+  border: solid 2px #0b3b59;
+  color: #0b3b59;
+  font-family: "Catamaran", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Sans", Arial, sans-serif;
+}
+
 .validation-message {
   margin: 30px;
   text-align: center;

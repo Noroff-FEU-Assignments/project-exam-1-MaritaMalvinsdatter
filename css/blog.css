@@ -7,10 +7,13 @@
 
 .blog-post-list {
     padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .post-cards {
-  max-width: 450px;
+  max-width: 350px;
   margin: 25px;
   border-color:#0b3b59;
   border-style: double;
@@ -61,6 +64,7 @@ main {
 
 .blog-posts {
     max-width: 1000px;
+    padding: 0px 20px;
 }
 
 .featured-img {
@@ -109,7 +113,7 @@ ul {
 .img-box {
     border-color:#0b3b59;
     border-style: double;
-    margin: 10px 0px;
+    margin: 10px 5px;
     background-color: white;
 }
 
@@ -156,7 +160,8 @@ ul {
 .modal img {
     width: 80%;
     height: auto;
-    margin: 20px;
+    position: relative;
+    top: 20%;
     border-style: double;
     border-color: #0b3b59;
     background-color: white;
