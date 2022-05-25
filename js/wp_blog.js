@@ -12,7 +12,7 @@ async function blogList(url) {
         posts.forEach((post) => {
             blogContainer.innerHTML += `<div class="post-cards">
             <a href="blog_posts.html?id=${post.id}"><img src="${post.acf.featured_img.url}"></a>
-            <h3>${post.acf.title}</h3>
+            <a href="blog_posts.html?id=${post.id}"><h3>${post.acf.title}</h3></a>
             </div>`
             
         });

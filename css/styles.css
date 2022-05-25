@@ -13,6 +13,10 @@ body {
     background-color: #fefff6;
   }
 
+  button:hover {
+    cursor: pointer;
+  }
+
   /* Header */
 
   header {

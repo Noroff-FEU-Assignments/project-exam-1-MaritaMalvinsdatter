@@ -34,6 +34,11 @@ h3 {
   max-height: 200px;
 }
 
+.post-cards a {
+    text-decoration: none;
+    color: black;
+}
+
 .button {
     text-align: center;
     margin-top: 25px;
@@ -42,6 +47,9 @@ h3 {
 .more-posts {
     padding: 10px;
     font-size: 18px;
+    border: solid 1px #0b3b59;
+    color: #0b3b59;
+    font-family: "Catamaran", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Sans", Arial, sans-serif;
 }
 
 
@@ -111,6 +119,10 @@ li {
     object-fit: cover;
 }
 
+.img-column img:hover {
+    cursor:zoom-in;
+}
+
 .quote-container {
     border-style: double;
     border-color: #0b3b59;
@@ -148,6 +160,10 @@ li {
     border-style: double;
     border-color: #0b3b59;
     background-color: white;
+}
+
+.modal img:hover {
+    cursor: default;
 }
 
 
