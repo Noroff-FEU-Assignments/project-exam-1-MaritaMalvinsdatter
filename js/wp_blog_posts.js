@@ -21,7 +21,10 @@ async function getBlogPost() {
 
         console.log(post);
 
-        blogInfo.innerHTML += `<div class="post">
+        blogInfo.innerHTML += "";
+
+        blogInfo.innerHTML += `
+        <div class="post">
         <h1>${post.acf.title}</h1>
         <img src="${post.acf.featured_img.url}" class="featured-img" alt="${post.acf.featured_img.alt}">
         <h2>${post.acf.h2}</h2>

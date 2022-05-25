@@ -1,10 +1,5 @@
 /* Blog Page */
 
-.all-blog-posts,
-.blog-posts {
-    margin: 20px auto;
-}
-
 .blog-post-list {
     padding: 0px 20px;
     display: flex;
@@ -14,7 +9,7 @@
 
 .post-cards {
   max-width: 350px;
-  margin: 25px;
+  margin: 0px 25px 25px;
   border-color:#0b3b59;
   border-style: double;
   background-color: white;
@@ -65,6 +60,7 @@ main {
 .blog-posts {
     max-width: 1000px;
     padding: 0px 20px;
+    margin: 0 auto;
 }
 
 .featured-img {

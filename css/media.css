@@ -109,6 +109,11 @@
 
     /* BLOG LIST & POSTS*/
 
+    .all-blog-posts,
+    .post {
+        margin: 20px auto;
+    }
+
     .blog-post-list {
         display: flex;
         flex-direction: row;
