@@ -5,10 +5,6 @@ body {
     background-size: cover;
 }
 
-.nav-menu.active {
-    margin-right: 5px;
-}
-
 .main-content {
     padding: 0px 15px;
 }

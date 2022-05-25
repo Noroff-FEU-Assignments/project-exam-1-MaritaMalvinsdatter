@@ -70,6 +70,15 @@ body {
     color: #00008b;
   }
 
+  .fa-earth-americas {
+    font-size: 1em;
+    color: #00008b
+  }
+
+  .fa-earth-americas:hover {
+    color: #228B22;
+  }
+
   .nav-container {
     display: flex;
     flex-direction: column;
@@ -81,13 +90,9 @@ body {
     border: 1px solid #00008b;
   }
 
-  .fa-earth-americas {
-    font-size: 1em;
-    color: #00008b
-  }
-
-  .fa-earth-americas:hover {
-    color: #228B22;
+  .fa-bars {
+    color: #00008b;
+    font-size: 20px;
   }
 
 .nav-menu {
@@ -95,8 +100,7 @@ body {
     right: -115%;
     top: -35px;
     flex-direction: column;
-    background-color: wheat;
-    opacity: 0.9;
+    background-color: #008C8B;
     text-align: center;
 }
 
@@ -106,7 +110,7 @@ body {
     padding-left: 0px;
     z-index: 1;
     width: unset;
-    margin-right: 20px;
+    margin-right: 5px;
 }
 
   nav ul {
@@ -129,8 +133,9 @@ body {
     color: #00008b;
   }
 
-  .fa-bars {
-    transition: all 0.3s ease-in-out;
+  .close-nav {
+    background-color: #fefff6;
+    border: none;
   }
 
   /* MAIN */
