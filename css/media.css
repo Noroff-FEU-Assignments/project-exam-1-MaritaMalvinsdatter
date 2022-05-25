@@ -20,6 +20,10 @@
         padding: 0;
     }
 
+    .close-nav {
+        display: none;
+    }
+
     .on-page {
         text-decoration: underline;
       }
