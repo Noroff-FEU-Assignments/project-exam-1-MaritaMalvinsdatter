@@ -11,8 +11,6 @@ async function blogList(url) {
         const posts = await response.json()
         console.log(posts);
 
-        // Making the loader work
-
         blogContainer.innerHTML = "";
 
         // Displaying post details
