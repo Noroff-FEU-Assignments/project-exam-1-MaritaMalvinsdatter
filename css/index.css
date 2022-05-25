@@ -78,7 +78,6 @@ body {
 
 .slider-text p {
     margin: 10px 5px;
-    /* display: none; */
 }
 
 .slider-text a {
@@ -104,6 +103,17 @@ body {
 .slider-buttons {
     margin: 20px auto;
     text-align: center;
+}
+
+/* .next,
+.prev {
+    border: solid 1px #0b3b59;
+} */
+
+.fa-angle-right,
+.fa-angle-left {
+    font-size: 20px;
+    color: #0b3b59;
 }
 
 

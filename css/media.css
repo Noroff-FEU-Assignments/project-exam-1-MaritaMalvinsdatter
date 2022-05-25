@@ -88,6 +88,12 @@
         font-size: 2em;
     }
 
+    .fa-angle-right,
+    .fa-angle-left {
+        font-size: 20px;
+        color: #0b3b59;
+    }
+
     .about-me {
         margin: 0 120px;
     }
