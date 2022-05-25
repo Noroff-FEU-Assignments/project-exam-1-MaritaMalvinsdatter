@@ -1,5 +1,6 @@
 const newTitle = document.querySelector("title")
 const blogInfo = document.querySelector(".blog-posts")
+const loader = document.querySelector(".loader")
 
 const queryString = document.location.search;
 const params = new URLSearchParams(queryString);
@@ -64,7 +65,6 @@ async function getBlogPost() {
         </div>
         </div>`
 
-
         // Creating the modal for making the post images bigger
 
         const images = document.querySelectorAll(".image");
@@ -105,5 +105,7 @@ async function getBlogPost() {
 }
 
 getBlogPost();
+
+loader.remove();
 
 
