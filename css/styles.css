@@ -150,6 +150,7 @@ body {
 
   .close-nav {
     background-color: #fefff6;
+    color: black;
     font-size: 1.3em;
     margin-top: 5px;
     border: 1px solid black;
