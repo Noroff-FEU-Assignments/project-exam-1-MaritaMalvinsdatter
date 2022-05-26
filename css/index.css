@@ -68,6 +68,7 @@ body {
     margin: 0 10px;
     text-align: center;
     box-shadow: 3px 3px 3px rgb(152 152 152);
+    flex-direction: column;
 }
 
 .slider-text p {
