@@ -43,6 +43,7 @@
         font-size: 2em;
       }
 
+
     /* INDEX */
 
     .img-quote-container {
@@ -96,6 +97,9 @@
         padding: 10px;
     }
 
+
+    /* ABOUT IN INDEX */
+
     .about-me {
         margin: 0 120px;
     }
@@ -103,10 +107,6 @@
     .about-me a {
         margin: 25px 0;
     }
-
-    .qa {
-        margin-top: 40px;
-      }
 
 
     /* BLOG LIST & POSTS*/
@@ -145,7 +145,8 @@
         padding: 10px;
     }
 
-    /* ABOUT ME */
+
+    /* ABOUT ME & CONTACT */
 
     .about-me-main,
     .map {
@@ -161,6 +162,11 @@
     iframe {
         height: 400px;
     }
+
+    .qa {
+        margin-top: 40px;
+    }
+
 
     /* FOOTER */
 
@@ -185,6 +191,9 @@
 
 
 @media only screen and (min-width: 900px) {
+
+    /* INDEX */
+
     .img-quote-container {
         min-height: 550px;
     }
@@ -192,6 +201,8 @@
     .slider-container {
         margin: 0px 50px;
     }
+
+    /* POSTS */
 
     .post-cards {
         margin: 20px;
@@ -205,6 +216,13 @@
         justify-content: space-evenly;
     }
 
+    .modal img {
+        width: 35%;
+    }
+
+
+    /* ABOUT ME */
+
     .about-me {
         margin: 0 220px;
     }
@@ -212,16 +230,18 @@
     .about-me img {
         width: 40%;
     }
-
-    .modal img {
-        width: 35%;
-    }
 }
 
 @media only screen and (min-width: 1200px) {
+
+    /* INDEX */
+
     .slider-container {
         margin: 0px 220px;
     }
+
+
+    /* POSTS */
 
     .post-cards {
         margin: 10px;
@@ -235,6 +255,9 @@
         width: 25%;
     }
 
+
+    /* ABOUT */
+
     .img-me {
         max-width: 70%;
         margin: 20px auto;
@@ -242,6 +265,9 @@
 }
 
 @media only screen and (min-width: 1500px) {
+
+    /* POSTS */
+
     .post-cards {
         max-width: 415px;
     }
