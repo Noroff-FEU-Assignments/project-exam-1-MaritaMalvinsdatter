@@ -11,7 +11,7 @@ hamburger.addEventListener("click", () => {
 
 // Remove menu when clicking nav item
 
-document.querySelectorAll(".nav-item").forEach(n => n.addEventListener
+document.querySelectorAll(".nav-item").forEach(e => e.addEventListener
     ("click", () => {
         hamburger.classList.remove("active");
         menu.classList.remove("active");
