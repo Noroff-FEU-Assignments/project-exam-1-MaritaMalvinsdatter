@@ -22,7 +22,8 @@ h3 {
 
 .post-cards h3,
 .caption {
-    font-family: 'Grape Nuts';
+    font-family: "Grape Nuts", "Kalam", "Catamaran", "Trebuchet MS", "Lucida Sans Unicode",
+    "Lucida Sans", Arial, sans-serif;
     font-size: 1.5em;
     margin: 0 0 5px;
 }

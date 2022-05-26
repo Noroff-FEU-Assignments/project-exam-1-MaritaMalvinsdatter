@@ -37,7 +37,8 @@ body {
   .img-quote {
     color: #fff;
     margin: 25px;
-    font-family: 'Grape Nuts';
+    font-family: "Grape Nuts", "Catamaran", "Trebuchet MS", "Lucida Sans Unicode",
+    "Lucida Sans", Arial, sans-serif;
     text-align: center;
     font-size: 1.5em;
   }
@@ -81,7 +82,7 @@ body {
 
 .slider-text h2 {
     font-family: "Catamaran", "Trebuchet MS", "Lucida Sans Unicode",
-    "Lucida Sans", Arial, sans-serif;;
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .title {
@@ -142,7 +143,8 @@ body {
 }
 
 h3 {
-    font-family: "Kalam";
+    font-family: "Kalam", "Catamaran", "Trebuchet MS", "Lucida Sans Unicode",
+    "Lucida Sans", Arial, sans-serif;
     font-size: 1.5em;
     margin-bottom: 0;
 }

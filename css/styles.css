@@ -78,7 +78,8 @@ body {
   .logo {
     font-size: 2.5em;
     text-decoration: none;
-    font-family: 'Amatic SC';
+    font-family: "Amatic SC", "Kalam", "Catamaran", "Trebuchet MS", "Lucida Sans Unicode",
+    "Lucida Sans", Arial, sans-serif;
     font-weight: bolder;
     color: #00008b;
   }
@@ -141,7 +142,8 @@ body {
     text-decoration: none;
     color: black;
     transition: 0.7s ease;
-    font-family: "Kalam";
+    font-family: "Kalam", "Catamaran", "Trebuchet MS", "Lucida Sans Unicode",
+    "Lucida Sans", Arial, sans-serif;
   }
 
   nav a:hover {
@@ -165,12 +167,14 @@ body {
   h1 {
     text-align: center;
     margin: 15px;
-    font-family: 'Kalam';
+    font-family: "Kalam", "Catamaran", "Trebuchet MS", "Lucida Sans Unicode",
+    "Lucida Sans", Arial, sans-serif;
     font-size: 1.5em;
   }
 
   h2 {
-    font-family: 'Kalam';
+    font-family: "Kalam", "Catamaran", "Trebuchet MS", "Lucida Sans Unicode",
+    "Lucida Sans", Arial, sans-serif;
   }
 
   /* FOOTER */
@@ -189,7 +193,8 @@ footer {
   color: black;
   font-size: 1.5em;
   text-decoration: none;
-  font-family: "Kalam";
+  font-family: "Kalam", "Catamaran", "Trebuchet MS", "Lucida Sans Unicode",
+  "Lucida Sans", Arial, sans-serif;
   font-weight: bold;
   margin: 0px 10px;
 }
