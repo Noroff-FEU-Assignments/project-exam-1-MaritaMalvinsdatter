@@ -12,7 +12,7 @@ main {
 input,
 select,
 textarea {
-  border: 1px solid #0b3b59;
+  border: 1px solid black;
   border-radius: 5px;
   padding: 10px;
 }
