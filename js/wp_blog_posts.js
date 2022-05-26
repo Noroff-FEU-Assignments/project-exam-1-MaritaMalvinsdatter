@@ -85,6 +85,8 @@ async function getBlogPost() {
             const newImage = document.createElement("img");
             newImage.setAttribute("src", src);
 
+            // Removes img when clicking outside img
+
             window.onclick = function (event) {
                 if (event.target == modal) {
                   modal.style.display = "none";

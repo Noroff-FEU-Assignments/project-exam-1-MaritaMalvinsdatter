@@ -104,13 +104,20 @@ body {
 .prev {
     background-color: white;
     padding: 5px;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
-.fa-angle-right,
-.fa-angle-left {
+.next:disabled,
+.prev:disabled {
+    background-color: white;
+    border: 2px solid #D3D3D3;
+    cursor: default;
+}
+
+.fa-angles-right,
+.fa-angles-left {
     font-size: 20px;
-    color: #0b3b59;
+    color: black
 }
 
 

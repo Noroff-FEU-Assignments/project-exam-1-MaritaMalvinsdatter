@@ -1,18 +1,16 @@
 const baseUrl = "https://www.malvinsdatter.no/wp-json/wp/v2/blog?acf_format=standard";
-const sliderCount = 5;
+const sliderCount = 6;
 const slider = document.querySelector(".slider-container");
 var currentSlide = 0;
 
 async function sliderList(url) {
 
-    // Get the 5 latest post for slider
+    // Get the 6 latest post for slider
 
     try {
         const response = await fetch(url)
         const posts = await response.json()
         console.log(posts);
-
-        // Making the loader work
 
         slider.innerHTML = " ";
 
@@ -43,32 +41,42 @@ async function sliderList(url) {
 
 sliderList(baseUrl)
 
-// Buttons for going back and forth in the slider
+// Buttons for going back and forth in the slider, and disabling/changing color when no more slides in either way
 
 const buttonNext = document.querySelector(".next");
 const buttonPrev = document.querySelector(".prev");
-buttonPrev.disabled = true;
+const angleRight = document.querySelector(".fa-angles-right") 
+const angleLeft = document.querySelector(".fa-angles-left")
 
-buttonNext.onclick = function() {
-    document.querySelector(".slider" + currentSlide).setAttribute("style", "display: none");
-    currentSlide++
-    document.querySelector(".slider" + currentSlide).setAttribute("style", "display:");
-    if (currentSlide == sliderCount-1) {
-        buttonNext.disabled = true;
-    } 
-    if (currentSlide > 0) {
-        buttonPrev.disabled = false;
-    }
-}
+// Starting point for slider buttons + Font Awesome Color
+buttonPrev.disabled = true;
+angleLeft.setAttribute("style", "color: #D3D3D3");
 
 buttonPrev.onclick = function() {
     document.querySelector(".slider" + currentSlide).setAttribute("style", "display: none");
     currentSlide--
-    document.querySelector(".slider" + currentSlide).setAttribute("style", "display:");
+    document.querySelector(".slider" + currentSlide).setAttribute("style", "display");
     if (currentSlide == 0) {
         buttonPrev.disabled = true;
+        angleLeft.setAttribute("style", "color: #D3D3D3")
     } 
     if (currentSlide < sliderCount) {
         buttonNext.disabled = false;
+        angleRight.setAttribute("style", "color: black")
     }
 }
+
+buttonNext.onclick = function() {
+    document.querySelector(".slider" + currentSlide).setAttribute("style", "display: none");
+    currentSlide++
+    document.querySelector(".slider" + currentSlide).setAttribute("style", "display");
+    if (currentSlide == sliderCount-1) {
+        buttonNext.disabled = true;
+        angleRight.setAttribute("style", "color: #D3D3D3")
+    } 
+    if (currentSlide > 0) {
+        buttonPrev.disabled = false;
+        angleLeft.setAttribute("style", "color: black")
+    }
+}
+
