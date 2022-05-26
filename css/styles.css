@@ -17,6 +17,18 @@ body {
     cursor: pointer;
   }
 
+  /* BUTTONS */
+
+  .more-button,
+  .submit-button {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid black;
+    font-family: "Catamaran", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Sans", Arial, sans-serif;
+    background-color: white;
+}
+
    /* LOADER */
 
   .loader>span {
