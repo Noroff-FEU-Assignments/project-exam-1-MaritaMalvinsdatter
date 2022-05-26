@@ -55,7 +55,7 @@ angleLeft.setAttribute("style", "color: #D3D3D3");
 buttonPrev.onclick = function() {
     document.querySelector(".slider" + currentSlide).setAttribute("style", "display: none");
     currentSlide--
-    document.querySelector(".slider" + currentSlide).setAttribute("style", "display");
+    document.querySelector(".slider" + currentSlide).setAttribute("style", "display: block");
     if (currentSlide == 0) {
         buttonPrev.disabled = true;
         angleLeft.setAttribute("style", "color: #D3D3D3")
@@ -69,7 +69,7 @@ buttonPrev.onclick = function() {
 buttonNext.onclick = function() {
     document.querySelector(".slider" + currentSlide).setAttribute("style", "display: none");
     currentSlide++
-    document.querySelector(".slider" + currentSlide).setAttribute("style", "display");
+    document.querySelector(".slider" + currentSlide).setAttribute("style", "display: block");
     if (currentSlide == sliderCount-1) {
         buttonNext.disabled = true;
         angleRight.setAttribute("style", "color: #D3D3D3")
