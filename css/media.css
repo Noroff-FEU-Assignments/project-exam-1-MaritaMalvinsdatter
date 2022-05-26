@@ -35,7 +35,6 @@
     }
 
     nav li {
-        font-size: 1.5em;
         font-weight: bold;
     }
     
@@ -56,11 +55,6 @@
 
     .img-quote p {
         font-size: 1.7em;
-    }
-
-    .slider-container {
-        border-color:#0b3b59;
-        border-style: double;
     }
 
     .slide-card {
@@ -95,7 +89,7 @@
     .fa-angle-right,
     .fa-angle-left {
         font-size: 20px;
-        color: #0b3b59;
+        color: black;
     }
 
     .next, .prev {
@@ -145,10 +139,6 @@
     .modal img {
         width: 55%;
         top: 10%;
-    }
-
-    .post-content {
-        margin: auto;
     }
 
     .quote-container {
