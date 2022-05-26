@@ -140,10 +140,10 @@
 
     .modal img {
         width: 55%;
+        top: 10%;
     }
 
     .post-content {
-        /* width: 715px; */
         margin: auto;
     }
 
@@ -220,7 +220,7 @@
     }
 
     .modal img {
-        width: 40%;
+        width: 30%;
     }
 }
 
