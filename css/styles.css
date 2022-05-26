@@ -76,7 +76,7 @@ body {
   }
 
   .logo {
-    font-size: 2em;
+    font-size: 2.5em;
     text-decoration: none;
     font-family: 'Amatic SC';
     font-weight: bolder;
@@ -100,12 +100,13 @@ body {
 
   .hamburger {
     background-color: rgba(0, 0, 0, 0);
-    border: 1px solid #00008b;
+    border: 2px solid #00008b;
   }
 
   .fa-bars {
     color: #00008b;
     font-size: 25px;
+    padding: 2px;
   }
 
 .nav-menu {
