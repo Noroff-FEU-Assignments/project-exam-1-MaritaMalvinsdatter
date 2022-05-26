@@ -63,11 +63,11 @@ body {
 
 .slider-container {
     position: relative;
-    border-color:#0b3b59;
-    border-style: double;
+    border: solid 1px black;
     background-color: white;
     margin: 0 10px;
     text-align: center;
+    box-shadow: 3px 3px 3px rgb(152 152 152);
 }
 
 .slider-text p {
@@ -100,10 +100,11 @@ body {
     text-align: center;
 }
 
-/* .next,
+.next,
 .prev {
-    border: solid 1px #0b3b59;
-} */
+    background-color: white;
+    padding: 5px;
+}
 
 .fa-angle-right,
 .fa-angle-left {

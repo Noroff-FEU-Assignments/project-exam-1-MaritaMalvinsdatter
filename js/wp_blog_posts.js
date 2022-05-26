@@ -22,7 +22,7 @@ async function getBlogPost() {
 
         console.log(post);
 
-        blogInfo.innerHTML += "";
+        // blogInfo.innerHTML += "";
 
         blogInfo.innerHTML += `
         <div class="post">
@@ -107,5 +107,7 @@ async function getBlogPost() {
 getBlogPost();
 
 loader.remove();
+
+
 
 

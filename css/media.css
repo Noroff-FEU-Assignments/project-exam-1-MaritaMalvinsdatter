@@ -98,6 +98,10 @@
         color: #0b3b59;
     }
 
+    .next, .prev {
+        padding: 10px;
+    }
+
     .about-me {
         margin: 0 120px;
     }

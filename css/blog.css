@@ -10,9 +10,10 @@
 .post-cards {
   max-width: 350px;
   margin: 0px 25px 25px;
-  border-color:#0b3b59;
-  border-style: double;
   background-color: white;
+  border: 1px solid #000000;
+  background-color: white;
+  box-shadow: 3px 3px 3px rgb(152 152 152);
 }
 
 h3 {
@@ -43,11 +44,12 @@ h3 {
 }
 
 .more-posts {
-    padding: 10px;
+    padding: 5px;
     font-size: 18px;
     border: solid 1px #0b3b59;
     color: #0b3b59;
     font-family: "Catamaran", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Sans", Arial, sans-serif;
+    background-color: white;
 }
 
 
@@ -66,8 +68,8 @@ main {
 .featured-img {
     width: 100%;
     object-fit: cover;
-    border-color:#0b3b59;
-    border-style: double;
+    border: solid 1px black;
+    box-shadow: 3px 3px 3px rgb(152 152 152);
 }
 
 .post-content {
@@ -76,8 +78,6 @@ main {
 
 h2 {
     text-align: center;
-    /* margin: 50px 0px;
-    font-size: 2em; */
     font-weight: normal;
 }
 
@@ -107,8 +107,7 @@ ul {
 }
 
 .img-box {
-    border-color:#0b3b59;
-    border-style: double;
+    border: solid 1px black;
     margin: 10px 5px;
     background-color: white;
 }
@@ -124,12 +123,13 @@ ul {
 }
 
 .quote-container {
-    border-style: double;
-    border-color: #0b3b59;
+    border: solid 1px black;
     padding: 5px;
     text-align: center;
     max-width: 600px;
     margin: 40px auto;
+    background-color: white;
+    box-shadow: 3px 3px 3px rgb(152 152 152);
 }
 
 .quote {
