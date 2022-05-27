@@ -20,7 +20,7 @@ async function sliderList(url) {
         let title = posts[i].acf.title;
         slider.innerHTML += `<div class="slider`+i+` slide-card">
         <div class="slider-img">
-        <a href="blog_posts.html?id=${posts[i].id}"><img src="${posts[i].acf.featured_img.url}"></a>
+        <a href="blog_posts.html?id=${posts[i].id}"><img src="${posts[i].acf.featured_img.url}" alt="${posts[i].acf.featured_img.alt}"></a>
         </div>
         <div class="slider-text">
         <a href="blog_posts.html?id=${posts[i].id}"><h2 class="title">${title}</h2></a>
