@@ -1,6 +1,6 @@
 const baseUrl = "https://www.malvinsdatter.no/wp-json/wp/v2/blog?acf_format=standard";
 const blogContainer = document.querySelector(".blog-post-list");
-const morePosts = document.querySelector(".more-posts")
+const morePosts = document.querySelector(".more-button")
 
 async function blogList(url) {
 
