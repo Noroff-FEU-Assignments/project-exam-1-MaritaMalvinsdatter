@@ -27,7 +27,7 @@ The site also need to be responive, attracive and easy to use across all screen 
 
 ## Contact
 
-[My LinkedIn Profile](www.linkedin.com/in/marita-malvinsdatter-stenersen)
+My LinkedIn Profile: www.linkedin.com/in/marita-malvinsdatter-stenersen
 
 ## Link to Page
 
