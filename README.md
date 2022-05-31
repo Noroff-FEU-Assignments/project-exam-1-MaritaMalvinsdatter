@@ -1,4 +1,4 @@
-## Marita Wanders
+# Marita Wanders
 
 <img src="/img/marita_wanders.png">
 
@@ -15,20 +15,20 @@ The site also need to be responive, attracive and easy to use across all screen 
 - Accessible within the WCAG principles
 - WordPress REST API
 
-## Buildt With
+### Buildt With
 
 - HTML
 - CSS
 - JS
 
-## Designed With
+### Designed With
 
 - Adobe XD
 
-## Contact
+### Contact
 
 My LinkedIn Profile: www.linkedin.com/in/marita-malvinsdatter-stenersen
 
-## Link to Page
+### Link to Page
 
 [Marita Wanders](https://neon-macaron-1d3b85.netlify.app/)
