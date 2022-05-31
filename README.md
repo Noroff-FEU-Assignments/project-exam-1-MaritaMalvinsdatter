@@ -4,6 +4,8 @@
 
 ## Description
 
+---
+
 This was our Exam Project where we had to make a blog of our choosing, and put into practice the skills we had learned during our first year of studies. I chose a travel blog.
 The project had two main aspect; making a call to the WordPress REST API to fetch the data we had made on the back-end, and building the site with HTML, CSS and JS.
 
@@ -17,13 +19,17 @@ The site also need to be responive, attracive and easy to use across all screen 
 
 ## Buildt With
 
+---
+
 *HTML
 *CSS
-\*JS
+JS
 
 ## Designed With
 
-\*Adobe XD
+---
+
+Adobe XD
 
 ## Contact
 
